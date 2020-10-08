@@ -18,3 +18,8 @@ Explanation: 2 does not exist in nums so return -1
 1. You may assume that all elements in nums are unique. 
 2. n will be in the range [1, 10000].
 3. The value of each element in nums will be in the range [-9999, 9999]. 
+
+# Solution
+1. If the target value is equal to the middle element - found the target. 
+2. If the target value is smaller - continue to search on the left. 
+3. If the target value is larger -  continue to search on the right. 
